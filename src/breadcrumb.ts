@@ -1,5 +1,5 @@
 import { FetchResult, Operation } from '@apollo/client/core';
-import { Breadcrumb as SentryBreadcrumb } from '@sentry/browser';
+import { Breadcrumb as SentryBreadcrumb } from '@sentry/types';
 import dotProp from 'dot-prop';
 import { print } from 'graphql';
 

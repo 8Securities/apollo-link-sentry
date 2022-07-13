@@ -1,5 +1,5 @@
 import { Operation } from '@apollo/client/core';
-import { Breadcrumb } from '@sentry/browser';
+import { Breadcrumb } from '@sentry/types';
 import deepMerge from 'deepmerge';
 
 import { GraphQLBreadcrumb } from './breadcrumb';
